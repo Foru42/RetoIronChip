@@ -10,7 +10,8 @@ var DB *sql.DB
 
 func InitDB() {
     var err error
-    DB, err = sql.Open("sqlite3", "/data/users.db") // Ruta fija para evitar crear subcarpetas no deseadas
+    // Abre la base de datos SQlite
+    DB, err = sql.Open("sqlite3", "/data/users.db") 
     if err != nil {
         log.Fatalf("Error al abrir la base de datos: %v", err)
     }
