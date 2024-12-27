@@ -31,8 +31,8 @@ Este proyecto es una RESTful API desarrollada en **Golang** utilizando el framew
 
 ### 1. Clonar el repositorio
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd <NOMBRE_DEL_REPOSITORIO>
+git clone https://github.com/Foru42/RetoIronChip.git
+cd RetoIroChip/
 ```
 
 ### 2. Construir y ejecutar con Docker Compose
